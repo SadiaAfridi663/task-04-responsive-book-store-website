@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.logo{
+    text-align: center;
+    color: #0b35278f;
+
+}
+.logo img{
+    display: block;
+    margin: auto;
+
+}
+.logo p{
+    line-height: 1px;
+    font-weight: bold;
+
+}
