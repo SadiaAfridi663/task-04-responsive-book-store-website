@@ -46,3 +46,47 @@ nav ul li a:hover{
     color: #0b35278f;
     cursor: pointer;
 }
+#home-container{
+    background-image: url(./images/bg-image.png);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+.search-box{
+    width: 23%;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 30px;
+}
+.search-box input{
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+    background-image: url(./images/search.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    
+}
+
+.img{
+ 
+    margin-top: 4%;
+    width: 24%;
+
+}
+.img img{
+    border-top-left-radius: 53%;
+}
+
+.info{
+
+    margin-top: 7%;
+    text-align: center;
+}
+.info h2{
+    color: #0b35278f;
+
+}
