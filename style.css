@@ -34,6 +34,7 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-left: 0px;
     
 }
 nav ul li{
@@ -51,7 +52,7 @@ nav ul li a:hover{
     color: #0b35278f;
     cursor: pointer;
 }
-#home-container{
+#home{
     background-image: url(./images/bg-image.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -283,7 +284,7 @@ footer{
     }
   }
   @media (max-width: 580px){
-    #home-container{
+    #home{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
